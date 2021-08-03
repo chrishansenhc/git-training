@@ -1,0 +1,182 @@
+schemaVersion: 0.1
+schemaType: Entity
+name: DiabetesPreMetricLab
+tableName:
+schemaName:
+databaseName:
+contentId: 8c5db8fa-4457-4259-b3f8-0ee9d241e758
+businessDescription:
+technicalDescription:
+dataStore:
+persistenceType: table
+isGlobalRead: false
+isGlobalWrite: false
+fields:
+  - name: BindingID
+    contentId: 9986a7fc-6c4b-40cd-97cc-86b123a47e31
+    businessDescription: This column is automatically populated by the engine and should not be part of the binding query.
+    technicalDescription:
+    status:
+    dataType: int
+    dataSensitivity: None
+    ordinal:
+    isNullable: false
+    isAutoIncrement: false
+    defaultValue:
+    excludeFromBaseView: false
+    isSystemField: true
+    objectRelationships: []
+    attributeValues: []
+  - name: BindingNM
+    contentId: ae53e65f-269e-47e7-8b51-9f9eb227bf85
+    businessDescription: This column is automatically populated by the engine and should not be part of the binding query.
+    technicalDescription:
+    status:
+    dataType: string
+    dataSensitivity: None
+    ordinal:
+    isNullable: false
+    isAutoIncrement: false
+    defaultValue:
+    excludeFromBaseView: false
+    isSystemField: true
+    objectRelationships: []
+    attributeValues: []
+  - name: LastLoadDTS
+    contentId: e48f55aa-9373-4bd1-9b79-43f97264101d
+    businessDescription: This column is automatically populated by the engine and should not be part of the binding query.
+    technicalDescription:
+    status:
+    dataType: datetime
+    dataSensitivity: None
+    ordinal:
+    isNullable: false
+    isAutoIncrement: false
+    defaultValue:
+    excludeFromBaseView: false
+    isSystemField: true
+    objectRelationships: []
+    attributeValues: []
+  - name: PatientID
+    contentId: 163ddbeb-4a6a-4685-a045-7d2c1cbce491
+    businessDescription:
+    technicalDescription:
+    status:
+    dataType: varchar(255)
+    dataSensitivity: None
+    ordinal:
+    isNullable: true
+    isAutoIncrement: false
+    defaultValue:
+    excludeFromBaseView: false
+    isSystemField: false
+    objectRelationships: []
+    attributeValues: []
+  - name: PatientEncounterID
+    contentId: 48728c17-c795-418a-9dfd-9aa3778d9b7a
+    businessDescription:
+    technicalDescription:
+    status:
+    dataType: varchar(255)
+    dataSensitivity: None
+    ordinal:
+    isNullable: true
+    isAutoIncrement: false
+    defaultValue:
+    excludeFromBaseView: false
+    isSystemField: false
+    objectRelationships: []
+    attributeValues: []
+  - name: OrderDTS
+    contentId: 1d5b0def-9278-4b76-be53-35d3e38e4cb5
+    businessDescription:
+    technicalDescription:
+    status:
+    dataType: datetime
+    dataSensitivity: None
+    ordinal:
+    isNullable: true
+    isAutoIncrement: false
+    defaultValue:
+    excludeFromBaseView: false
+    isSystemField: false
+    objectRelationships: []
+    attributeValues: []
+  - name: ResultDTS
+    contentId: 487d628d-ee3a-4f9c-bcfb-0bace938280b
+    businessDescription:
+    technicalDescription:
+    status:
+    dataType: varchar(255)
+    dataSensitivity: None
+    ordinal:
+    isNullable: true
+    isAutoIncrement: false
+    defaultValue:
+    excludeFromBaseView: false
+    isSystemField: false
+    objectRelationships: []
+    attributeValues: []
+  - name: ComponentCD
+    contentId: 37f3e40a-2599-410c-ba4e-608fb552d580
+    businessDescription:
+    technicalDescription:
+    status:
+    dataType: varchar(255)
+    dataSensitivity: None
+    ordinal:
+    isNullable: true
+    isAutoIncrement: false
+    defaultValue:
+    excludeFromBaseView: false
+    isSystemField: false
+    objectRelationships: []
+    attributeValues: []
+  - name: ComponentNM
+    contentId: 2b4736b8-dcc8-4925-9c0f-4df712dcf742
+    businessDescription:
+    technicalDescription:
+    status:
+    dataType: varchar(255)
+    dataSensitivity: None
+    ordinal:
+    isNullable: true
+    isAutoIncrement: false
+    defaultValue:
+    excludeFromBaseView: false
+    isSystemField: false
+    objectRelationships: []
+    attributeValues: []
+  - name: ResultValueNBR
+    contentId: 31c95c39-fa9b-4ba5-8331-9b77ad1d9a78
+    businessDescription:
+    technicalDescription:
+    status:
+    dataType: float
+    dataSensitivity: None
+    ordinal:
+    isNullable: true
+    isAutoIncrement: false
+    defaultValue:
+    excludeFromBaseView: false
+    isSystemField: false
+    objectRelationships: []
+    attributeValues: []
+  - name: ComponentOrderNBR
+    contentId: 6719470e-e96e-4679-aa65-c9966df4bc4a
+    businessDescription:
+    technicalDescription:
+    status:
+    dataType: bigint
+    dataSensitivity: None
+    ordinal:
+    isNullable: true
+    isAutoIncrement: false
+    defaultValue:
+    excludeFromBaseView: false
+    isSystemField: false
+    objectRelationships: []
+    attributeValues: []
+indexes: []
+objectRelationships: []
+attributeValues: []

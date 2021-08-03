@@ -1,0 +1,197 @@
+schemaVersion: 0.1
+schemaType: Entity
+name: DiabetesEventDiagnosis
+tableName:
+schemaName:
+databaseName:
+contentId: e99c70e7-c2d2-4f27-9cb5-d1b9cd4bda49
+businessDescription:
+technicalDescription:
+dataStore:
+persistenceType: table
+isGlobalRead: false
+isGlobalWrite: false
+fields:
+  - name: BindingID
+    contentId: ca8e3f48-7616-4c66-862b-a89060ba09f3
+    businessDescription: This column is automatically populated by the engine and should not be part of the binding query.
+    technicalDescription:
+    status:
+    dataType: int
+    dataSensitivity: None
+    ordinal:
+    isNullable: false
+    isAutoIncrement: false
+    defaultValue:
+    excludeFromBaseView: false
+    isSystemField: true
+    objectRelationships: []
+    attributeValues: []
+  - name: BindingNM
+    contentId: 8bf419eb-3bbc-4ca4-989a-a160226b59b6
+    businessDescription: This column is automatically populated by the engine and should not be part of the binding query.
+    technicalDescription:
+    status:
+    dataType: string
+    dataSensitivity: None
+    ordinal:
+    isNullable: false
+    isAutoIncrement: false
+    defaultValue:
+    excludeFromBaseView: false
+    isSystemField: true
+    objectRelationships: []
+    attributeValues: []
+  - name: LastLoadDTS
+    contentId: d4f78cff-0e24-47a3-9179-8526a0156da9
+    businessDescription: This column is automatically populated by the engine and should not be part of the binding query.
+    technicalDescription:
+    status:
+    dataType: datetime
+    dataSensitivity: None
+    ordinal:
+    isNullable: false
+    isAutoIncrement: false
+    defaultValue:
+    excludeFromBaseView: false
+    isSystemField: true
+    objectRelationships: []
+    attributeValues: []
+  - name: PatientID
+    contentId: 0b7f8c20-44e7-44c6-bf5a-6040c4e44b0d
+    businessDescription:
+    technicalDescription:
+    status:
+    dataType: varchar(255)
+    dataSensitivity: None
+    ordinal:
+    isNullable: true
+    isAutoIncrement: false
+    defaultValue:
+    excludeFromBaseView: false
+    isSystemField: false
+    objectRelationships: []
+    attributeValues: []
+  - name: PatientEncounterID
+    contentId: 2a862eb9-1d43-4ef3-b306-386834dc5ee0
+    businessDescription:
+    technicalDescription:
+    status:
+    dataType: varchar(255)
+    dataSensitivity: None
+    ordinal:
+    isNullable: true
+    isAutoIncrement: false
+    defaultValue:
+    excludeFromBaseView: false
+    isSystemField: false
+    objectRelationships: []
+    attributeValues: []
+  - name: MRN
+    contentId: 7b275bc6-324d-4a2c-82bd-b3df796e6c59
+    businessDescription:
+    technicalDescription:
+    status:
+    dataType: varchar(255)
+    dataSensitivity: None
+    ordinal:
+    isNullable: true
+    isAutoIncrement: false
+    defaultValue:
+    excludeFromBaseView: false
+    isSystemField: false
+    objectRelationships: []
+    attributeValues: []
+  - name: EventID
+    contentId: 337b5a79-a96e-4b8f-b98a-91c5e22e1ca8
+    businessDescription:
+    technicalDescription:
+    status:
+    dataType: int
+    dataSensitivity: None
+    ordinal:
+    isNullable: false
+    isAutoIncrement: false
+    defaultValue:
+    excludeFromBaseView: false
+    isSystemField: false
+    objectRelationships: []
+    attributeValues: []
+  - name: EventNM
+    contentId: a3d81546-d061-4431-aa33-5fc22683c2ac
+    businessDescription:
+    technicalDescription:
+    status:
+    dataType: varchar(31)
+    dataSensitivity: None
+    ordinal:
+    isNullable: false
+    isAutoIncrement: false
+    defaultValue:
+    excludeFromBaseView: false
+    isSystemField: false
+    objectRelationships: []
+    attributeValues: []
+  - name: PrimaryDiagnosisID
+    contentId: c2c317ce-cea7-4dd6-9233-6bbc00736940
+    businessDescription:
+    technicalDescription:
+    status:
+    dataType: varchar(255)
+    dataSensitivity: None
+    ordinal:
+    isNullable: true
+    isAutoIncrement: false
+    defaultValue:
+    excludeFromBaseView: false
+    isSystemField: false
+    objectRelationships: []
+    attributeValues: []
+  - name: DiagnosisNM
+    contentId: fd561f41-31e3-448f-af19-55827c9fc4dd
+    businessDescription:
+    technicalDescription:
+    status:
+    dataType: varchar(255)
+    dataSensitivity: None
+    ordinal:
+    isNullable: true
+    isAutoIncrement: false
+    defaultValue:
+    excludeFromBaseView: false
+    isSystemField: false
+    objectRelationships: []
+    attributeValues: []
+  - name: ICD10
+    contentId: f5b0f41c-8801-43c9-9a1f-57fce212f392
+    businessDescription:
+    technicalDescription:
+    status:
+    dataType: varchar(50)
+    dataSensitivity: None
+    ordinal:
+    isNullable: true
+    isAutoIncrement: false
+    defaultValue:
+    excludeFromBaseView: false
+    isSystemField: false
+    objectRelationships: []
+    attributeValues: []
+  - name: DiagnosisDTS
+    contentId: 15a83a38-4478-41a9-ad1b-32dc2bbe0fa8
+    businessDescription:
+    technicalDescription:
+    status:
+    dataType: datetime
+    dataSensitivity: None
+    ordinal:
+    isNullable: true
+    isAutoIncrement: false
+    defaultValue:
+    excludeFromBaseView: false
+    isSystemField: false
+    objectRelationships: []
+    attributeValues: []
+indexes: []
+objectRelationships: []
+attributeValues: []

@@ -1,0 +1,62 @@
+schemaVersion: 0.1
+schemaType: Entity
+name: EventPrimaryDiagnoses
+tableName: 
+schemaName: 
+databaseName: 
+contentId: 35377a54-502a-484f-9351-46c4b3ad8cce
+businessDescription: 
+technicalDescription: 
+dataStore: 
+persistenceType: table
+isGlobalRead: false
+isGlobalWrite: false
+fields:
+- name: BindingID
+  contentId: f31aee7a-13f7-493f-bacd-851ff2e61037
+  businessDescription: This column is automatically populated by the engine and should not be part of the binding query.
+  technicalDescription: 
+  status: 
+  dataType: int
+  dataSensitivity: None
+  ordinal: 
+  isNullable: false
+  isAutoIncrement: false
+  defaultValue: 
+  excludeFromBaseView: false
+  isSystemField: true
+  objectRelationships: []
+  attributeValues: []
+- name: BindingNM
+  contentId: ac398fe0-a20d-42da-a0e7-52f5bf80755b
+  businessDescription: This column is automatically populated by the engine and should not be part of the binding query.
+  technicalDescription: 
+  status: 
+  dataType: string
+  dataSensitivity: None
+  ordinal: 
+  isNullable: false
+  isAutoIncrement: false
+  defaultValue: 
+  excludeFromBaseView: false
+  isSystemField: true
+  objectRelationships: []
+  attributeValues: []
+- name: LastLoadDTS
+  contentId: 9aff816e-f55a-48c4-8c8e-2e4a3f432ac4
+  businessDescription: This column is automatically populated by the engine and should not be part of the binding query.
+  technicalDescription: 
+  status: 
+  dataType: datetime
+  dataSensitivity: None
+  ordinal: 
+  isNullable: false
+  isAutoIncrement: false
+  defaultValue: 
+  excludeFromBaseView: false
+  isSystemField: true
+  objectRelationships: []
+  attributeValues: []
+indexes: []
+objectRelationships: []
+attributeValues: []

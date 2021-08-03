@@ -1,0 +1,15 @@
+destinationEntity:
+  destinationName: SAM.Training.DiabetesPreMetricSocialHistory
+  destinationType: local
+schemaVersion: 0.1
+schemaType: Binding
+name: PM Social History
+description:
+contentId: 651beb7c-fea0-4f34-82e5-7e0ca245bdeb
+sourceDataStore:
+type: SQL
+status: In Development
+loadType: Full
+script: !script SocialHistory.sql
+objectRelationships: []
+attributeValues: []

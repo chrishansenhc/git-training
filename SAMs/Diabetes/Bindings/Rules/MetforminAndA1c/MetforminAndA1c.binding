@@ -1,0 +1,15 @@
+destinationEntity:
+  destinationName: SAM.Training.DiabetesRule
+  destinationType: local
+schemaVersion: 0.1
+schemaType: Binding
+name: Metformin and A1C
+description:
+contentId: afe80d11-af77-4b55-8ff2-7158cbe3b992
+sourceDataStore:
+type: SQL
+status: In Development
+loadType: Full
+script: !script MetforminAndA1c.sql
+objectRelationships: []
+attributeValues: []

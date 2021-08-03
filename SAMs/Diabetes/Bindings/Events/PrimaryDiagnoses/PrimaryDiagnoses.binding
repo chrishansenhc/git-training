@@ -1,0 +1,15 @@
+destinationEntity:
+  destinationName: SAM.Training.DiabetesEventDiagnosis
+  destinationType: local
+schemaVersion: 0.1
+schemaType: Binding
+name: Primary Diagnoses
+description:
+contentId: 8f40b989-fd65-4b5b-821d-e1c0cb9fa54c
+sourceDataStore:
+type: SQL
+status: In Development
+loadType: Full
+script: !script PrimaryDiagnoses.sql
+objectRelationships: []
+attributeValues: []

@@ -1,0 +1,137 @@
+schemaVersion: 0.1
+schemaType: Entity
+name: DiabetesSummaryMetricPatientItem
+tableName:
+schemaName:
+databaseName:
+contentId: 55194b32-cee0-44b9-8f8e-1f0956b67aa3
+businessDescription:
+technicalDescription:
+dataStore:
+persistenceType: table
+isGlobalRead: false
+isGlobalWrite: false
+fields:
+  - name: BindingID
+    contentId: cdb07844-6df1-4085-9c95-2abf0eb439a5
+    businessDescription: This column is automatically populated by the engine and should not be part of the binding query.
+    technicalDescription:
+    status:
+    dataType: int
+    dataSensitivity: None
+    ordinal:
+    isNullable: false
+    isAutoIncrement: false
+    defaultValue:
+    excludeFromBaseView: false
+    isSystemField: true
+    objectRelationships: []
+    attributeValues: []
+  - name: BindingNM
+    contentId: 9f6df09c-50a9-4ba0-aa10-88367ac5be64
+    businessDescription: This column is automatically populated by the engine and should not be part of the binding query.
+    technicalDescription:
+    status:
+    dataType: string
+    dataSensitivity: None
+    ordinal:
+    isNullable: false
+    isAutoIncrement: false
+    defaultValue:
+    excludeFromBaseView: false
+    isSystemField: true
+    objectRelationships: []
+    attributeValues: []
+  - name: LastLoadDTS
+    contentId: 09597484-6a3d-462c-8fd9-526a6b1ca024
+    businessDescription: This column is automatically populated by the engine and should not be part of the binding query.
+    technicalDescription:
+    status:
+    dataType: datetime
+    dataSensitivity: None
+    ordinal:
+    isNullable: false
+    isAutoIncrement: false
+    defaultValue:
+    excludeFromBaseView: false
+    isSystemField: true
+    objectRelationships: []
+    attributeValues: []
+  - name: PatientID
+    contentId: 49dea721-d8e4-466b-856f-ea01861137e1
+    businessDescription:
+    technicalDescription:
+    status:
+    dataType: varchar(255)
+    dataSensitivity: None
+    ordinal:
+    isNullable: true
+    isAutoIncrement: false
+    defaultValue:
+    excludeFromBaseView: false
+    isSystemField: false
+    objectRelationships: []
+    attributeValues: []
+  - name: MeasurementCD
+    contentId: e3880435-7971-488b-8d4d-06140900405c
+    businessDescription:
+    technicalDescription:
+    status:
+    dataType: int
+    dataSensitivity: None
+    ordinal:
+    isNullable: false
+    isAutoIncrement: false
+    defaultValue:
+    excludeFromBaseView: false
+    isSystemField: false
+    objectRelationships: []
+    attributeValues: []
+  - name: MeasurementNM
+    contentId: 821ffb0f-d78f-457f-b864-5dc94d2abebc
+    businessDescription:
+    technicalDescription:
+    status:
+    dataType: varchar(255)
+    dataSensitivity: None
+    ordinal:
+    isNullable: true
+    isAutoIncrement: false
+    defaultValue:
+    excludeFromBaseView: false
+    isSystemField: false
+    objectRelationships: []
+    attributeValues: []
+  - name: MeasurementVAL
+    contentId: eae999bd-0206-489a-bf21-62d6d3b7b2bc
+    businessDescription:
+    technicalDescription:
+    status:
+    dataType: varchar(50)
+    dataSensitivity: None
+    ordinal:
+    isNullable: true
+    isAutoIncrement: false
+    defaultValue:
+    excludeFromBaseView: false
+    isSystemField: false
+    objectRelationships: []
+    attributeValues: []
+  - name: MeasurementDTS
+    contentId: c16d09ba-0d7a-46d6-98bf-6601f11e3448
+    businessDescription:
+    technicalDescription:
+    status:
+    dataType: datetime
+    dataSensitivity: None
+    ordinal:
+    isNullable: true
+    isAutoIncrement: false
+    defaultValue:
+    excludeFromBaseView: false
+    isSystemField: false
+    objectRelationships: []
+    attributeValues: []
+indexes: []
+objectRelationships: []
+attributeValues: []

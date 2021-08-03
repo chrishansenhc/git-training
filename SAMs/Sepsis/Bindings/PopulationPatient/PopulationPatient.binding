@@ -1,0 +1,15 @@
+destinationEntity:
+  destinationName: SAM.Training.PopulationPatient
+  destinationType: local
+schemaVersion: 0.1
+schemaType: Binding
+name: PopulationPatient
+description:
+contentId: 8cd1223d-a12a-4ce7-92c5-c0c922c3dcb0
+sourceDataStore:
+type: SQL
+status: In Development
+loadType: Full
+script: !script PopulationPatient.sql
+objectRelationships: []
+attributeValues: []

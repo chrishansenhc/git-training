@@ -1,0 +1,15 @@
+destinationEntity:
+  destinationName: SAM.Training.DiabetesEventMedication
+  destinationType: local
+schemaVersion: 0.1
+schemaType: Binding
+name: Medication
+description: 
+contentId: 824d273a-8559-4256-823e-0d778cb163cb
+sourceDataStore: 
+type: SQL
+status: In Development
+loadType: Full
+script: !script Medication.sql
+objectRelationships: []
+attributeValues: []

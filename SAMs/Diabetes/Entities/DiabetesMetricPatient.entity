@@ -1,0 +1,392 @@
+schemaVersion: 0.1
+schemaType: Entity
+name: DiabetesMetricPatient
+tableName:
+schemaName:
+databaseName:
+contentId: 930265af-044f-48c3-a096-8c703ae6f00e
+businessDescription:
+technicalDescription:
+dataStore:
+persistenceType: table
+isGlobalRead: false
+isGlobalWrite: false
+fields:
+  - name: BindingID
+    contentId: 69503582-e8c9-4558-9c19-96ce1efbf8fb
+    businessDescription: This column is automatically populated by the engine and should not be part of the binding query.
+    technicalDescription:
+    status:
+    dataType: int
+    dataSensitivity: None
+    ordinal:
+    isNullable: false
+    isAutoIncrement: false
+    defaultValue:
+    excludeFromBaseView: false
+    isSystemField: true
+    objectRelationships: []
+    attributeValues: []
+  - name: BindingNM
+    contentId: 6934c6df-8d17-4bca-a123-7bdcd73ecf8e
+    businessDescription: This column is automatically populated by the engine and should not be part of the binding query.
+    technicalDescription:
+    status:
+    dataType: string
+    dataSensitivity: None
+    ordinal:
+    isNullable: false
+    isAutoIncrement: false
+    defaultValue:
+    excludeFromBaseView: false
+    isSystemField: true
+    objectRelationships: []
+    attributeValues: []
+  - name: LastLoadDTS
+    contentId: ea604744-7027-44c6-8258-3dce10bc0a33
+    businessDescription: This column is automatically populated by the engine and should not be part of the binding query.
+    technicalDescription:
+    status:
+    dataType: datetime
+    dataSensitivity: None
+    ordinal:
+    isNullable: false
+    isAutoIncrement: false
+    defaultValue:
+    excludeFromBaseView: false
+    isSystemField: true
+    objectRelationships: []
+    attributeValues: []
+  - name: PatientID
+    contentId: a0af2ab2-ba54-4dc1-8780-50ca9d3248e7
+    businessDescription:
+    technicalDescription:
+    status:
+    dataType: varchar(255)
+    dataSensitivity: None
+    ordinal:
+    isNullable: true
+    isAutoIncrement: false
+    defaultValue:
+    excludeFromBaseView: false
+    isSystemField: false
+    objectRelationships: []
+    attributeValues: []
+  - name: BirthDTS
+    contentId: f69da0ee-bfea-4754-a448-361e1bf78b2b
+    businessDescription:
+    technicalDescription:
+    status:
+    dataType: datetime
+    dataSensitivity: None
+    ordinal:
+    isNullable: true
+    isAutoIncrement: false
+    defaultValue:
+    excludeFromBaseView: false
+    isSystemField: false
+    objectRelationships: []
+    attributeValues: []
+  - name: PatientAgeAtDiagnosisNBR
+    contentId: 6346b80b-73b7-4827-a31f-e11606c916fc
+    businessDescription:
+    technicalDescription:
+    status:
+    dataType: int
+    dataSensitivity: None
+    ordinal:
+    isNullable: true
+    isAutoIncrement: false
+    defaultValue:
+    excludeFromBaseView: false
+    isSystemField: false
+    objectRelationships: []
+    attributeValues: []
+  - name: PatientCurrentAgeNBR
+    contentId: 6d634e3a-cde5-4aab-9e6c-eb05e8603495
+    businessDescription:
+    technicalDescription:
+    status:
+    dataType: int
+    dataSensitivity: None
+    ordinal:
+    isNullable: true
+    isAutoIncrement: false
+    defaultValue:
+    excludeFromBaseView: false
+    isSystemField: false
+    objectRelationships: []
+    attributeValues: []
+  - name: LastBloodPressureEncounterID
+    contentId: 5a3752cb-66a6-4bd3-b9c4-0a0302c5e1d1
+    businessDescription:
+    technicalDescription:
+    status:
+    dataType: varchar(255)
+    dataSensitivity: None
+    ordinal:
+    isNullable: true
+    isAutoIncrement: false
+    defaultValue:
+    excludeFromBaseView: false
+    isSystemField: false
+    objectRelationships: []
+    attributeValues: []
+  - name: LastBloodPressureDTS
+    contentId: 3ba6160e-03ee-4ff2-9d63-c91c1ffd888c
+    businessDescription:
+    technicalDescription:
+    status:
+    dataType: datetime
+    dataSensitivity: None
+    ordinal:
+    isNullable: true
+    isAutoIncrement: false
+    defaultValue:
+    excludeFromBaseView: false
+    isSystemField: false
+    objectRelationships: []
+    attributeValues: []
+  - name: LastBloodPressureSystolicNBR
+    contentId: 0c060a0e-0826-4550-82ed-1bdc349ec993
+    businessDescription:
+    technicalDescription:
+    status:
+    dataType: float
+    dataSensitivity: None
+    ordinal:
+    isNullable: true
+    isAutoIncrement: false
+    defaultValue:
+    excludeFromBaseView: false
+    isSystemField: false
+    objectRelationships: []
+    attributeValues: []
+  - name: LastBloodPressureDiastolicNBR
+    contentId: 5747b681-87b5-4448-9220-ed3fff455fdb
+    businessDescription:
+    technicalDescription:
+    status:
+    dataType: float
+    dataSensitivity: None
+    ordinal:
+    isNullable: true
+    isAutoIncrement: false
+    defaultValue:
+    excludeFromBaseView: false
+    isSystemField: false
+    objectRelationships: []
+    attributeValues: []
+  - name: DaysSinceLastBloodPressureCNT
+    contentId: 506efbe8-d4ad-45df-b2e3-264d0fab6ee0
+    businessDescription:
+    technicalDescription:
+    status:
+    dataType: int
+    dataSensitivity: None
+    ordinal:
+    isNullable: true
+    isAutoIncrement: false
+    defaultValue:
+    excludeFromBaseView: false
+    isSystemField: false
+    objectRelationships: []
+    attributeValues: []
+  - name: BloodPressureControlledFLG
+    contentId: 00fab2d4-8b40-49f6-96e6-58c203d765a4
+    businessDescription:
+    technicalDescription:
+    status:
+    dataType: int
+    dataSensitivity: None
+    ordinal:
+    isNullable: false
+    isAutoIncrement: false
+    defaultValue:
+    excludeFromBaseView: false
+    isSystemField: false
+    objectRelationships: []
+    attributeValues: []
+  - name: LastHbA1CEncounterID
+    contentId: dec9a6cd-c674-4e94-b373-b1f037e3c44a
+    businessDescription:
+    technicalDescription:
+    status:
+    dataType: varchar(255)
+    dataSensitivity: None
+    ordinal:
+    isNullable: true
+    isAutoIncrement: false
+    defaultValue:
+    excludeFromBaseView: false
+    isSystemField: false
+    objectRelationships: []
+    attributeValues: []
+  - name: LastHbA1cDTS
+    contentId: e5d60ccf-ca5c-400e-99fd-0110ddc7fbe6
+    businessDescription:
+    technicalDescription:
+    status:
+    dataType: datetime
+    dataSensitivity: None
+    ordinal:
+    isNullable: true
+    isAutoIncrement: false
+    defaultValue:
+    excludeFromBaseView: false
+    isSystemField: false
+    objectRelationships: []
+    attributeValues: []
+  - name: DaysSinceHbA1cCNT
+    contentId: b6f562a7-49af-4378-9a1c-08c25c79a039
+    businessDescription:
+    technicalDescription:
+    status:
+    dataType: int
+    dataSensitivity: None
+    ordinal:
+    isNullable: true
+    isAutoIncrement: false
+    defaultValue:
+    excludeFromBaseView: false
+    isSystemField: false
+    objectRelationships: []
+    attributeValues: []
+  - name: LastHbA1cResultNBR
+    contentId: b9efb354-c9c6-42de-a33e-c9a509bb5963
+    businessDescription:
+    technicalDescription:
+    status:
+    dataType: float
+    dataSensitivity: None
+    ordinal:
+    isNullable: true
+    isAutoIncrement: false
+    defaultValue:
+    excludeFromBaseView: false
+    isSystemField: false
+    objectRelationships: []
+    attributeValues: []
+  - name: HbA1cControlledFLG
+    contentId: a0db7253-fa44-436e-bf6e-54bbf9ffeb10
+    businessDescription:
+    technicalDescription:
+    status:
+    dataType: int
+    dataSensitivity: None
+    ordinal:
+    isNullable: false
+    isAutoIncrement: false
+    defaultValue:
+    excludeFromBaseView: false
+    isSystemField: false
+    objectRelationships: []
+    attributeValues: []
+  - name: HbA1cResultCurrentFLG
+    contentId: e920298f-3305-4a75-88e8-7f2b42f253cc
+    businessDescription:
+    technicalDescription:
+    status:
+    dataType: int
+    dataSensitivity: None
+    ordinal:
+    isNullable: false
+    isAutoIncrement: false
+    defaultValue:
+    excludeFromBaseView: false
+    isSystemField: false
+    objectRelationships: []
+    attributeValues: []
+  - name: LastLDLEncounterID
+    contentId: dfd57b4e-9da8-4438-b75d-211f677e7f55
+    businessDescription:
+    technicalDescription:
+    status:
+    dataType: varchar(255)
+    dataSensitivity: None
+    ordinal:
+    isNullable: true
+    isAutoIncrement: false
+    defaultValue:
+    excludeFromBaseView: false
+    isSystemField: false
+    objectRelationships: []
+    attributeValues: []
+  - name: LastLDLDTS
+    contentId: a63885d9-27b9-4d53-9780-58db0b4792ce
+    businessDescription:
+    technicalDescription:
+    status:
+    dataType: datetime
+    dataSensitivity: None
+    ordinal:
+    isNullable: true
+    isAutoIncrement: false
+    defaultValue:
+    excludeFromBaseView: false
+    isSystemField: false
+    objectRelationships: []
+    attributeValues: []
+  - name: DaysSinceLDLCNT
+    contentId: 577f2757-65d4-43e1-8097-f362ea5433b9
+    businessDescription:
+    technicalDescription:
+    status:
+    dataType: int
+    dataSensitivity: None
+    ordinal:
+    isNullable: true
+    isAutoIncrement: false
+    defaultValue:
+    excludeFromBaseView: false
+    isSystemField: false
+    objectRelationships: []
+    attributeValues: []
+  - name: LastLDLResultNBR
+    contentId: c8253041-16cf-48bc-b219-c2ed89f50691
+    businessDescription:
+    technicalDescription:
+    status:
+    dataType: float
+    dataSensitivity: None
+    ordinal:
+    isNullable: true
+    isAutoIncrement: false
+    defaultValue:
+    excludeFromBaseView: false
+    isSystemField: false
+    objectRelationships: []
+    attributeValues: []
+  - name: LDLControlledFLG
+    contentId: 499edd99-a639-4110-836d-20d74f4a8868
+    businessDescription:
+    technicalDescription:
+    status:
+    dataType: int
+    dataSensitivity: None
+    ordinal:
+    isNullable: false
+    isAutoIncrement: false
+    defaultValue:
+    excludeFromBaseView: false
+    isSystemField: false
+    objectRelationships: []
+    attributeValues: []
+  - name: TobaccoCompliantFLG
+    contentId: d1e31d2c-4a9f-4d33-9809-dde6b4c4dbe6
+    businessDescription:
+    technicalDescription:
+    status:
+    dataType: varchar(255)
+    dataSensitivity: None
+    ordinal:
+    isNullable: false
+    isAutoIncrement: false
+    defaultValue:
+    excludeFromBaseView: false
+    isSystemField: false
+    objectRelationships: []
+    attributeValues: []
+indexes: []
+objectRelationships: []
+attributeValues: []
