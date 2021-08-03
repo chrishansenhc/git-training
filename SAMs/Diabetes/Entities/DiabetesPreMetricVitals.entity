@@ -1,14 +1,14 @@
 schemaVersion: 0.1
 schemaType: Entity
 name: DiabetesPreMetricVitals
-tableName:
-schemaName:
-databaseName:
+tableName: DiabetesPreMetricVitals
+schemaName: Training
+databaseName: SAM
 contentId: 6fec019e-4c59-482c-a37f-62359cb7a17a
 businessDescription:
 technicalDescription:
-dataStore:
-persistenceType: table
+dataStore: Snowflake
+persistenceType: Table
 isGlobalRead: false
 isGlobalWrite: false
 fields:
@@ -16,7 +16,7 @@ fields:
     contentId: 9f8df512-d32b-4959-8a02-404efb269312
     businessDescription: This column is automatically populated by the engine and should not be part of the binding query.
     technicalDescription:
-    status:
+    status: Active
     dataType: int
     dataSensitivity: None
     ordinal:
@@ -31,7 +31,7 @@ fields:
     contentId: b6dacdc4-7f7e-45de-ac1d-de1051257df4
     businessDescription: This column is automatically populated by the engine and should not be part of the binding query.
     technicalDescription:
-    status:
+    status: Active
     dataType: string
     dataSensitivity: None
     ordinal:
@@ -46,7 +46,7 @@ fields:
     contentId: 8e28d5ac-0c3d-4ee0-a4ff-0094b317fe21
     businessDescription: This column is automatically populated by the engine and should not be part of the binding query.
     technicalDescription:
-    status:
+    status: Active
     dataType: datetime
     dataSensitivity: None
     ordinal:
@@ -61,7 +61,7 @@ fields:
     contentId: ba3a63f4-5322-44a7-8f6d-896609a17a26
     businessDescription:
     technicalDescription:
-    status:
+    status: Active
     dataType: varchar(255)
     dataSensitivity: None
     ordinal:
@@ -76,7 +76,7 @@ fields:
     contentId: ffa1eda0-aa2c-4fb4-8c58-f0accf4930be
     businessDescription:
     technicalDescription:
-    status:
+    status: Active
     dataType: varchar(255)
     dataSensitivity: None
     ordinal:
@@ -91,7 +91,7 @@ fields:
     contentId: 4d85fed3-2791-4c6f-b4ac-74a0fcea7ea9
     businessDescription:
     technicalDescription:
-    status:
+    status: Active
     dataType: float
     dataSensitivity: None
     ordinal:
@@ -106,7 +106,7 @@ fields:
     contentId: 2eb608b1-2050-43b0-a77c-5fdbcc903dcd
     businessDescription:
     technicalDescription:
-    status:
+    status: Active
     dataType: float
     dataSensitivity: None
     ordinal:
@@ -121,7 +121,7 @@ fields:
     contentId: 90faeb2e-0f32-411c-ac6d-7b5bdcd00934
     businessDescription:
     technicalDescription:
-    status:
+    status: Active
     dataType: datetime
     dataSensitivity: None
     ordinal:
@@ -136,7 +136,7 @@ fields:
     contentId: 104fd1d3-9593-4a3e-a407-6efb44868d2a
     businessDescription:
     technicalDescription:
-    status:
+    status: Active
     dataType: datetime
     dataSensitivity: None
     ordinal:
@@ -151,7 +151,7 @@ fields:
     contentId: ba3a63f4-5322-44a7-8f6d-896609a17a26
     businessDescription:
     technicalDescription:
-    status:
+    status: Active
     dataType: datetime
     dataSensitivity: None
     ordinal:

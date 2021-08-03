@@ -1,14 +1,14 @@
 schemaVersion: 0.1
 schemaType: Entity
 name: DiabetesPreMetricLab
-tableName:
-schemaName:
-databaseName:
+tableName: DiabetesPreMetricLab
+schemaName: Training
+databaseName: SAM
 contentId: 8c5db8fa-4457-4259-b3f8-0ee9d241e758
 businessDescription:
 technicalDescription:
-dataStore:
-persistenceType: table
+dataStore: Snowflake
+persistenceType: Table
 isGlobalRead: false
 isGlobalWrite: false
 fields:
@@ -16,7 +16,7 @@ fields:
     contentId: 9986a7fc-6c4b-40cd-97cc-86b123a47e31
     businessDescription: This column is automatically populated by the engine and should not be part of the binding query.
     technicalDescription:
-    status:
+    status: Active
     dataType: int
     dataSensitivity: None
     ordinal:
@@ -31,7 +31,7 @@ fields:
     contentId: ae53e65f-269e-47e7-8b51-9f9eb227bf85
     businessDescription: This column is automatically populated by the engine and should not be part of the binding query.
     technicalDescription:
-    status:
+    status: Active
     dataType: string
     dataSensitivity: None
     ordinal:
@@ -46,7 +46,7 @@ fields:
     contentId: e48f55aa-9373-4bd1-9b79-43f97264101d
     businessDescription: This column is automatically populated by the engine and should not be part of the binding query.
     technicalDescription:
-    status:
+    status: Active
     dataType: datetime
     dataSensitivity: None
     ordinal:
@@ -61,7 +61,7 @@ fields:
     contentId: 163ddbeb-4a6a-4685-a045-7d2c1cbce491
     businessDescription:
     technicalDescription:
-    status:
+    status: Active
     dataType: varchar(255)
     dataSensitivity: None
     ordinal:
@@ -76,7 +76,7 @@ fields:
     contentId: 48728c17-c795-418a-9dfd-9aa3778d9b7a
     businessDescription:
     technicalDescription:
-    status:
+    status: Active
     dataType: varchar(255)
     dataSensitivity: None
     ordinal:
@@ -91,7 +91,7 @@ fields:
     contentId: 1d5b0def-9278-4b76-be53-35d3e38e4cb5
     businessDescription:
     technicalDescription:
-    status:
+    status: Active
     dataType: datetime
     dataSensitivity: None
     ordinal:
@@ -106,7 +106,7 @@ fields:
     contentId: 487d628d-ee3a-4f9c-bcfb-0bace938280b
     businessDescription:
     technicalDescription:
-    status:
+    status: Active
     dataType: varchar(255)
     dataSensitivity: None
     ordinal:
@@ -121,7 +121,7 @@ fields:
     contentId: 37f3e40a-2599-410c-ba4e-608fb552d580
     businessDescription:
     technicalDescription:
-    status:
+    status: Active
     dataType: varchar(255)
     dataSensitivity: None
     ordinal:
@@ -136,7 +136,7 @@ fields:
     contentId: 2b4736b8-dcc8-4925-9c0f-4df712dcf742
     businessDescription:
     technicalDescription:
-    status:
+    status: Active
     dataType: varchar(255)
     dataSensitivity: None
     ordinal:
@@ -151,7 +151,7 @@ fields:
     contentId: 31c95c39-fa9b-4ba5-8331-9b77ad1d9a78
     businessDescription:
     technicalDescription:
-    status:
+    status: Active
     dataType: float
     dataSensitivity: None
     ordinal:
@@ -166,7 +166,7 @@ fields:
     contentId: 6719470e-e96e-4679-aa65-c9966df4bc4a
     businessDescription:
     technicalDescription:
-    status:
+    status: Active
     dataType: bigint
     dataSensitivity: None
     ordinal:

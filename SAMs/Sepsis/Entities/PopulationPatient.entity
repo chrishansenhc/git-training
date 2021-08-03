@@ -1,14 +1,14 @@
 schemaVersion: 0.1
 schemaType: Entity
 name: PopulationPatient
-tableName:
-schemaName:
-databaseName:
+tableName: PopulationPatient
+schemaName: Training
+databaseName: SAM
 contentId: 7fd83acb-78f4-4126-a422-885161304630
 businessDescription:
 technicalDescription:
-dataStore:
-persistenceType: table
+dataStore: Snowflake
+persistenceType: Table
 isGlobalRead: false
 isGlobalWrite: false
 fields:
@@ -16,7 +16,7 @@ fields:
     contentId: 6ba5a04e-c63d-4fb4-a078-5dfb8cfa8538
     businessDescription: This column is automatically populated by the engine and should not be part of the binding query.
     technicalDescription:
-    status:
+    status: Active
     dataType: int
     dataSensitivity: None
     ordinal:
@@ -31,7 +31,7 @@ fields:
     contentId: 66b530e6-fb60-467a-b86e-c7f66c05ea18
     businessDescription: This column is automatically populated by the engine and should not be part of the binding query.
     technicalDescription:
-    status:
+    status: Active
     dataType: string
     dataSensitivity: None
     ordinal:
@@ -46,7 +46,7 @@ fields:
     contentId: e72af626-3e83-420b-9d79-86839a656df9
     businessDescription: This column is automatically populated by the engine and should not be part of the binding query.
     technicalDescription:
-    status:
+    status: Active
     dataType: datetime
     dataSensitivity: None
     ordinal:

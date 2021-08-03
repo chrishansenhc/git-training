@@ -6,7 +6,7 @@ schemaType: Binding
 name: EventPrimaryDiagnoses
 description:
 contentId: 6e96a37c-cb2a-4ccb-b6af-9d6125f6acb9
-sourceDataStore:
+sourceDataStore: Snowflake
 type: SQL
 status: In Development
 loadType: Full

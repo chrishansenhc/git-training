@@ -6,7 +6,7 @@ schemaType: Binding
 name: Diagnosed (Pre)Diabetic
 description:
 contentId: 5e342460-e7cf-48f0-a13d-dca98d8fd375
-sourceDataStore:
+sourceDataStore: Snowflake
 type: SQL
 status: In Development
 loadType: Full

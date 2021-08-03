@@ -6,7 +6,7 @@ schemaType: Binding
 name: PM Vitals
 description:
 contentId: a76c6b49-c2a6-43c8-a43d-816f1d6bdd3e
-sourceDataStore:
+sourceDataStore: Snowflake
 type: SQL
 status: In Development
 loadType: Full

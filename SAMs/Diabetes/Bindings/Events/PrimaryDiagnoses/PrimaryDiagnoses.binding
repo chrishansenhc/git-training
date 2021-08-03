@@ -6,7 +6,7 @@ schemaType: Binding
 name: Primary Diagnoses
 description:
 contentId: 8f40b989-fd65-4b5b-821d-e1c0cb9fa54c
-sourceDataStore:
+sourceDataStore: Snowflake
 type: SQL
 status: In Development
 loadType: Full

@@ -6,7 +6,7 @@ schemaType: Binding
 name: HbA1c
 description:
 contentId: 73536cdd-1202-41ca-a8ce-59288963885e
-sourceDataStore:
+sourceDataStore: Snowflake
 type: SQL
 status: In Development
 loadType: Full

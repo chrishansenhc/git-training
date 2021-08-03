@@ -6,7 +6,7 @@ schemaType: Binding
 name: M Patient
 description:
 contentId: 0f29c7ea-627f-4e51-8f85-b68152266e4f
-sourceDataStore:
+sourceDataStore: Snowflake
 type: SQL
 status: In Development
 loadType: Full

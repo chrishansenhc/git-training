@@ -1,14 +1,14 @@
 schemaVersion: 0.1
 schemaType: Entity
 name: DiabetesRule
-tableName:
-schemaName:
-databaseName:
+tableName: DiabetesRule
+schemaName: Training
+databaseName: SAM
 contentId: fd179ecf-9d78-4c39-a164-83f1d8c49cc9
 businessDescription:
 technicalDescription:
-dataStore:
-persistenceType: table
+dataStore: Snowflake
+persistenceType: Table
 isGlobalRead: false
 isGlobalWrite: false
 fields:
@@ -16,7 +16,7 @@ fields:
     contentId: 6e6a4eb4-8a68-4c5c-a20c-7015f0fa3372
     businessDescription: This column is automatically populated by the engine and should not be part of the binding query.
     technicalDescription:
-    status:
+    status: Active
     dataType: int
     dataSensitivity: None
     ordinal:
@@ -31,7 +31,7 @@ fields:
     contentId: f8fabdbf-7535-43c6-9cf5-7465c998a7d8
     businessDescription: This column is automatically populated by the engine and should not be part of the binding query.
     technicalDescription:
-    status:
+    status: Active
     dataType: string
     dataSensitivity: None
     ordinal:
@@ -46,7 +46,7 @@ fields:
     contentId: 8bab539d-37f5-490c-907e-53e34973555d
     businessDescription: This column is automatically populated by the engine and should not be part of the binding query.
     technicalDescription:
-    status:
+    status: Active
     dataType: datetime
     dataSensitivity: None
     ordinal:
@@ -61,7 +61,7 @@ fields:
     contentId: 2b3b4770-7175-4ea1-9675-dd031bd0b14e
     businessDescription:
     technicalDescription:
-    status:
+    status: Active
     dataType: varchar(255)
     dataSensitivity: None
     ordinal:
@@ -76,7 +76,7 @@ fields:
     contentId: f4d1ff45-c445-46e0-bb48-4d7e639ae843
     businessDescription:
     technicalDescription:
-    status:
+    status: Active
     dataType: varchar(255)
     dataSensitivity: None
     ordinal:
@@ -91,7 +91,7 @@ fields:
     contentId: 7f4ab60c-bc8b-461b-ab2c-0bde304ae97c
     businessDescription:
     technicalDescription:
-    status:
+    status: Active
     dataType: varchar(255)
     dataSensitivity: None
     ordinal:
@@ -106,7 +106,7 @@ fields:
     contentId: 9d340551-caf4-4d1b-91b3-47b3b370097f
     businessDescription:
     technicalDescription:
-    status:
+    status: Active
     dataType: int
     dataSensitivity: None
     ordinal:
@@ -121,7 +121,7 @@ fields:
     contentId: c6c35e6d-d6a4-41f2-99d5-cc56b67c5195
     businessDescription:
     technicalDescription:
-    status:
+    status: Active
     dataType: varchar(31)
     dataSensitivity: None
     ordinal:
@@ -136,7 +136,7 @@ fields:
     contentId: ff69593f-dcc9-4fa8-802a-5740b7180834
     businessDescription:
     technicalDescription:
-    status:
+    status: Active
     dataType: datetime
     dataSensitivity: None
     ordinal:
@@ -151,7 +151,7 @@ fields:
     contentId: 606bd0f3-32cc-4539-b566-51dca91c8314
     businessDescription:
     technicalDescription:
-    status:
+    status: Active
     dataType: datetime
     dataSensitivity: None
     ordinal:

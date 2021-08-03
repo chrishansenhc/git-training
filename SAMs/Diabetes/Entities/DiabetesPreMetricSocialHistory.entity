@@ -1,14 +1,14 @@
 schemaVersion: 0.1
 schemaType: Entity
 name: DiabetesPreMetricSocialHistory
-tableName:
-schemaName:
-databaseName:
+tableName: DiabetesPreMetricSocialHistory
+schemaName: Training
+databaseName: SAM
 contentId: de4cadcc-158f-4f4f-9e81-143ce000ca08
 businessDescription:
 technicalDescription:
-dataStore:
-persistenceType: table
+dataStore: Snowflake
+persistenceType: Table
 isGlobalRead: false
 isGlobalWrite: false
 fields:
@@ -16,7 +16,7 @@ fields:
     contentId: 86eb4463-45a2-4bda-9ed4-c771042e19cb
     businessDescription: This column is automatically populated by the engine and should not be part of the binding query.
     technicalDescription:
-    status:
+    status: Active
     dataType: int
     dataSensitivity: None
     ordinal:
@@ -31,7 +31,7 @@ fields:
     contentId: abf40639-4e21-4980-8f7a-aca2225a54fe
     businessDescription: This column is automatically populated by the engine and should not be part of the binding query.
     technicalDescription:
-    status:
+    status: Active
     dataType: string
     dataSensitivity: None
     ordinal:
@@ -46,7 +46,7 @@ fields:
     contentId: e9cd2435-b8dd-4841-beeb-ddaca5b49d54
     businessDescription: This column is automatically populated by the engine and should not be part of the binding query.
     technicalDescription:
-    status:
+    status: Active
     dataType: datetime
     dataSensitivity: None
     ordinal:
@@ -61,7 +61,7 @@ fields:
     contentId: 7032f17f-6b7d-4b72-83f8-820710a7b5c0
     businessDescription:
     technicalDescription:
-    status:
+    status: Active
     dataType: varchar(255)
     dataSensitivity: None
     ordinal:
@@ -76,7 +76,7 @@ fields:
     contentId: e8acf2ec-ae33-48b2-ab61-6ca60fa3d621
     businessDescription:
     technicalDescription:
-    status:
+    status: Active
     dataType: datetime
     dataSensitivity: None
     ordinal:
@@ -91,7 +91,7 @@ fields:
     contentId: bfad8067-d66b-4083-8ebb-ba85cd2f1f42
     businessDescription:
     technicalDescription:
-    status:
+    status: Active
     dataType: varchar(255)
     dataSensitivity: None
     ordinal:

@@ -6,7 +6,7 @@ schemaType: Binding
 name: Medication
 description: 
 contentId: 824d273a-8559-4256-823e-0d778cb163cb
-sourceDataStore: 
+sourceDataStore: Snowflake
 type: SQL
 status: In Development
 loadType: Full

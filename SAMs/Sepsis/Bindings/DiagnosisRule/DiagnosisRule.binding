@@ -1,0 +1,13 @@
+destinationEntity: 
+schemaVersion: 0.1
+schemaType: Binding
+name: DiagnosisRule
+description: 
+contentId: 837884d1-c9c2-450d-9396-851d845ec3b0
+sourceDataStore: 
+type: SQL
+status: In Development
+loadType: Full
+script: !script DiagnosisRule.sql
+objectRelationships: []
+attributeValues: []

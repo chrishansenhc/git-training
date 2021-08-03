@@ -6,7 +6,7 @@ schemaType: Binding
 name: PM Labs
 description:
 contentId: fed028a3-e85b-43bf-a107-919ecad40e6c
-sourceDataStore:
+sourceDataStore: Snowflake
 type: SQL
 status: In Development
 loadType: Full

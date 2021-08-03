@@ -6,7 +6,7 @@ schemaType: Binding
 name: PM Social History
 description:
 contentId: 651beb7c-fea0-4f34-82e5-7e0ca245bdeb
-sourceDataStore:
+sourceDataStore: Snowflake
 type: SQL
 status: In Development
 loadType: Full
