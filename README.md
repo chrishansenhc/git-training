@@ -15,7 +15,7 @@ Steps to get started using this repo:
 We highly recommend using [Visual Studio Code](https://github.com/Microsoft/vscode) to work in this repository.
 
 For detailed walkthrough instructions, see these videos:  
-[Mac and Windows Installation GUide](https://bit.ly/3rWxNNf)
+[Mac and Windows Installation Guide](https://bit.ly/3rWxNNf)
 
 Once VS Vode and Git are installated on your machine, you can clone this repo and work in it.
 
