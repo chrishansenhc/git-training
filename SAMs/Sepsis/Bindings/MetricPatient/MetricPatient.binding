@@ -1,0 +1,13 @@
+destinationEntity: 
+schemaVersion: 0.1
+schemaType: Binding
+name: MetricPatient
+description: 
+contentId: d876f525-70a1-42f8-b1ec-663a5cb4f01f
+sourceDataStore: 
+type: SQL
+status: In Development
+loadType: Full
+script: !script MetricPatient.sql
+objectRelationships: []
+attributeValues: []

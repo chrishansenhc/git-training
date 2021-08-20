@@ -2,5 +2,5 @@ Select Column1
       ,Column2 
       ,Column3
 From EventTable
-Where Column1 = 'ABC'
+Where Column1 = 'XYZ'
 ;
